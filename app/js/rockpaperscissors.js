@@ -1,4 +1,6 @@
-
+////////////////////////////////////////////////
+/*   Provided Code - Please Don't Edit   */
+////////////////////////////////////////////////
 'use strict';
 function getInput() {
     console.log("Please choose either 'rock', 'paper', or 'scissors'.")
@@ -79,7 +81,7 @@ function playTo(maxGames) {
             computerWins++;
             console.log("computer wins! You have won "+playerWins+" times, and the computer has won "+computerWins+" times.");
         } else if(result =='tie'){
-            console.log("Its a Tie! You have won "+playerWins+" times, and the computer has won "+computerWins+" times.");
+            console.log("Its a Tie! Yxou have won "+playerWins+" times, and the computer has won "+computerWins+" times.");
         } 
         
         else {console.log("thats not how you play!");
